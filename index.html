@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>簡単なWebサイト</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #440000; /* 修正された背景色 */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      color: #cc0000; /* 修正された文字色 */
+    }
+
+    footer {
+      background-color: #440000; /* 修正された背景色 */
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Yutoの個人サイト</h1>
+  </header>
+  <main>
+    <h2>基本データ</h2>
+    <p>愛知県名古屋市在住</p>
+
+    <h2>好きなこと</h2>
+    <p>アニメ</p>
+  </main>
+  <footer>
+    <p>&copy; 2024 Yuto Kawashima</p>
+  </footer>
+</body>
+</html>
